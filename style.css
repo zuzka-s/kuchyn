@@ -34,12 +34,14 @@ div.mobil {
 .mtvapp100 {
     width: 100%;
     text-align: center;
+    padding-top: 40px;
 }
 
 .malltvapp .container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .mtvapp1,
@@ -53,19 +55,19 @@ div.mobil {
 
 @media screen and (max-width: 1199px) {
 div.mobil {
-    margin-bottom: -120px;
+    margin-bottom: -67px;
 }
 }
 
 @media screen and (max-width: 991.5px) {
     div.mobil {
-        margin-bottom: -151px;
+        margin-bottom: -92px;
     }
 }
 
 @media screen and (max-width: 767px) {
 div.mobil {
-    margin-bottom: -277px;
+    margin-bottom: -150px;
     }
 }
 
