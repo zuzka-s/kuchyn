@@ -2,6 +2,23 @@ html {
     scroll-behavior: smooth;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    text-align: center;
+}
+#header {
+    text-align: center;
+}
+
+.main-logo {
+    max-width: 350px;
+}
+
 .prize-flex {
     display: flex;
     width: 100%;
@@ -9,15 +26,23 @@ html {
     justify-content: space-between;
 }
 
+#prize {
+    background-color: #3b3b3b;
+    padding: 30px 15px;
+}
+
 .prize-box {
     width: 28%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 6px solid #18c6ff;
+    background-color:#ffffff;
+    margin: 15px;
 }
 
 .img-prize {
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
     width: 100%;
@@ -32,7 +57,13 @@ html {
 }
 
 .prize-box p{
-    padding: 10px;
+    padding: 15px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+#prize h2 {
+    color: #18c6ff;
 }
 
 /*mtv app*/
