@@ -2,6 +2,39 @@ html {
     scroll-behavior: smooth;
 }
 
+.prize-flex {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.prize-box {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-prize {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+}
+
+.img-prize.one {
+    background-image: url(images/prvni-cena.jpg);
+}
+
+.prize-box span {
+    font-weight: bold;
+}
+
+.prize-box p{
+    padding: 10px;
+}
+
 /*mtv app*/
 .grow {
     display: inline-block;
@@ -129,3 +162,30 @@ div.platformy img {
     align-items: center;
     height: 150px;
 }
+
+/* Embed */
+.em-cont {
+    max-width: 800px;
+    max-height: 450px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.embed {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    overflow: hidden;
+}
+
