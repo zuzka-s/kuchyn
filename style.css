@@ -2,6 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+
 h1,
 h2,
 h3,
@@ -10,13 +15,62 @@ h5,
 h6 {
     text-transform: uppercase;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #3b3b3b;
+}
+
+a {
+    color: #18c6ff;
+}
+
+#head-stripe {
+    background: #F8F8F8;
+    padding: 10px 0;
+}
+#head-stripe a img {
+    filter: grayscale(100%);
+    opacity: .7;
+    transition: all .15s ease-in-out;
+    max-height: 15px;
+    width: auto;
+}
+#head-stripe a img:hover {
+    filter: grayscale(0%);
+    opacity: 1;    
 }
 #header {
     text-align: center;
+    margin: 50px 0;
+    background-image: url(images/pozadi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#header .sub{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-box-logo {
+    width: 20%;
+    align-self: start;
+}
+
+.header-box-sub {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-logo {
-    max-width: 350px;
+    width: 100%;
 }
 
 .prize-flex {
@@ -29,6 +83,7 @@ h6 {
 #prize {
     background-color: #3b3b3b;
     padding: 30px 15px;
+    margin: 50px 0;
 }
 
 .prize-box {
@@ -51,9 +106,20 @@ h6 {
 .img-prize.one {
     background-image: url(images/prvni-cena.jpg);
 }
+.img-prize.two {
+    background-image: url(images/kolaz-velke.png);
+    background-position: center;
+    background-size: 90%;
+}
+.img-prize.three {
+    background-image: url(images/kolaz-male.png);
+    background-position: center;
+    background-size: 90%;
+}
 
 .prize-box span {
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .prize-box p{
@@ -64,6 +130,93 @@ h6 {
 
 #prize h2 {
     color: #18c6ff;
+}
+
+#video, #schedule {
+    margin: 50px 0;
+}
+
+.video-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.video {
+    width: 40%;
+    padding: 10px;
+    border: 6px solid #18c6ff;
+}
+
+.video-send {
+    width: 50%;
+    padding: 10px;
+}
+
+#rules h2{
+    background-color: #3b3b3b;
+    padding: 10px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+#rules .container {
+    width: 70%;
+}
+
+.schedule-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.schedule-box {
+    width: 25%;
+    margin: 1%;
+    height: 180px;
+    background-color: #18c6ff;
+    padding: 10px 10px 20px;
+    text-align: center;
+    color: #3b3b3b;
+}
+.schedule-box.box3 {
+    width: 23%;
+}
+.schedule-box.box3 {
+    width: 40%;
+}
+.schedule-box.box4 {
+    width: 30%;
+}
+.schedule-box.box6 {
+    width: 36%;
+}
+
+.schedule-box span{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.schedule-box .subheadline {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 27px;
+    padding-top: 12px;
+    padding-bottom: 6px;
+}
+
+.schedule-box .subheadline.final {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3%;
 }
 
 /*mtv app*/
