@@ -151,7 +151,7 @@ a {
 .video-flex {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .video {
@@ -167,6 +167,7 @@ a {
     height: max-content;
     border: 6px solid #18c6ff;
     background-color: #ffffff;
+    align-self: center;
 }
 
 #rules {
