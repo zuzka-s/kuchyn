@@ -33,6 +33,7 @@ a {
     transition: all .15s ease-in-out;
     max-height: 15px;
     width: auto;
+    margin-right: 1%;
 }
 #head-stripe a img:hover {
     filter: grayscale(0%);
