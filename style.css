@@ -24,7 +24,7 @@ a {
 } 
 
 #head-stripe {
-    background: #F8F8F8;
+    background: #DBD6D6;
     padding: 10px 0;
 }
 #head-stripe a img {
@@ -289,6 +289,7 @@ a {
     }
     .schedule-box {
         width: 48%;
+        margin: 1%;
     }
     .schedule-box.box4 {
         width: 48%;
@@ -298,6 +299,9 @@ a {
     }
     .schedule-box.box6 {
         width: 85%;
+    }
+    .schedule-flex {
+        justify-content: center;
     }
 }
 
@@ -360,6 +364,20 @@ a {
     }
     h2 {
         font-size: 1.6rem;
+    }
+    .schedule-box .subheadline {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .schedule-flex {
+        flex-direction: column;
+    }
+    .schedule-box {
+        height: 170px;
+        width: 100%;
+    }
+    .schedule-box.box4 {
+        width: 100%;
     }
 }
 
