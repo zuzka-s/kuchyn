@@ -242,6 +242,17 @@ a {
     margin-top: 3%;
 }
 
+#video-feed {
+    background-color: #dbd6d6;
+    padding: 50px 0;
+}
+#video-feed h3{
+    background-color: #3b3b3b;
+    padding: 10px;
+    color:#ffffff;
+    display: inline-block;
+}
+
 @media screen and (max-width: 1000px) {
     .container {
         max-width: 850px;
