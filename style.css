@@ -150,7 +150,7 @@ a {
 }
 
 #schedule {
-    margin: 50px 0;
+    margin: 35px 0;
 }
 
 #video {
@@ -242,6 +242,9 @@ a {
     text-align: center;
     margin: 20px 0;
 }
+#schedule h2 {
+    margin-bottom: 20px;
+}
 
 .schedule-box {
     width: 70%;
@@ -293,6 +296,10 @@ a {
 
 a.schedule-link {
     color: #ffffff;
+}
+
+.legal {
+    margin-top: 35px;
 }
 
 #video-feed {
