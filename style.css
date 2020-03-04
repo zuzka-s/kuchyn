@@ -207,14 +207,17 @@ a {
 .video-rules a.rules-btn {
   display: inline-block;
   padding: 20px;
-  background-color: rgb(24, 198, 255);
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   font-size: 20px;
+  cursor: pointer;
+  background-color: #3b3b3b;
+  position: relative;
 }
-.video-rules a.rules-btn:hover
-{
-    background-color: rgb(0, 144, 198);
+
+.video-rules a.rules-btn:hover {
+    background-color: #18c6ff;
+    color:#3b3b3b;
 }
 
 #rules {
@@ -247,28 +250,18 @@ a {
 }
 
 .schedule-box {
-    width: 70%;
+    width: 90%;
     margin: 1% 1%;
-    height: 215px;
+    height: max-content;
     background-color: #18c6ff;
-    padding: 10px 20px 20px;
-    text-align: center;
+    padding: 20px 30px 20px;
+    text-align: left;
     color: #3b3b3b;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
 }
 
-.schedule-box.box1 {
-    width: 48%;
-}
-.schedule-box.box2 {
-    width: 48%;
-}
-.schedule-box.box5 {
-    height: 265px;
-}
 
 .schedule-box p{
     margin-bottom: 0;
@@ -277,7 +270,6 @@ a {
 
 .schedule-box ul{
     padding-left: 10px;
-    list-style-position: inside;
 }
 
 .schedule-box span{
@@ -321,14 +313,7 @@ a.schedule-link {
     color:#ffffff;
     display: inline-block;
 }
-@media screen and (max-width: 1200px) {
-    .schedule-box { 
-        height: 240px;
-}
-.schedule-box.box5 {
-    height: 295px;
-}
-}
+
 
 @media screen and (max-width: 1000px) {
     .container {
@@ -354,21 +339,8 @@ a.schedule-link {
         margin-left: 3%;
         margin-bottom: 10px;
     }
-    .schedule-box {
-        height: 250px;
-    }
 }
 
-@media screen and (max-width: 800px) {
-    .schedule-box {
-        width: 80%;
-        height: max-content;
-    }
-    .schedule-box.box1,.schedule-box.box2,.schedule-box.box5 {
-        width: 80%;
-        height: max-content;
-    }
-}
 
 @media screen and (max-width: 700px) {
     .header-box-logo {
