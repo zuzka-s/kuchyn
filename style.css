@@ -92,6 +92,7 @@ a {
 }
 
 #sponsors {
+    background-color: #F8F8F8;
     padding: 30px 15px;
 }
 .sponsors-flex {
@@ -99,7 +100,7 @@ a {
 }
 .sponsors-flex a {
     display: inline-block;
-    margin: 10px;
+    margin: 20px 10px;
 }
 
 .prize-box {
