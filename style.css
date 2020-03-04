@@ -235,7 +235,7 @@ a {
 .schedule-flex {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
@@ -243,26 +243,29 @@ a {
 }
 
 .schedule-box {
-    width: 25%;
-    margin: 1% 0;
-    height: 180px;
+    width: 70%;
+    margin: 1% 1%;
+    height: 215px;
     background-color: #18c6ff;
-    padding: 10px 10px 20px;
+    padding: 10px 20px 20px;
     text-align: center;
     color: #3b3b3b;
 }
-.schedule-box.box3 {
-    width: 23%;
+.schedule-box.box1 {
+    width: 48%;
 }
-.schedule-box.box3 {
-    width: 47%;
+.schedule-box.box2 {
+    width: 48%;
 }
-.schedule-box.box4 {
-    width: 30%;
+.schedule-box.box5 {
+    height: 258px;
 }
-.schedule-box.box6 {
-    width: 42%;
+
+.schedule-box p{
+    margin-bottom: 0;
+    margin-top: 10px;
 }
+
 
 .schedule-box span{
     color: #ffffff;
@@ -287,6 +290,10 @@ a {
     margin-top: 3%;
 }
 
+a.schedule-link {
+    color: #ffffff;
+}
+
 #video-feed {
     background-color: #dbd6d6;
     padding: 50px 0;
@@ -296,6 +303,14 @@ a {
     padding: 10px;
     color:#ffffff;
     display: inline-block;
+}
+@media screen and (max-width: 1200px) {
+    .schedule-box { 
+        height: 240px;
+}
+.schedule-box.box5 {
+    height: 295px;
+}
 }
 
 @media screen and (max-width: 1000px) {
@@ -313,6 +328,7 @@ a {
     }
 }
 
+
 @media screen and (max-width: 900px) {
     .header-flex {
         flex-direction: column;
@@ -322,7 +338,18 @@ a {
         margin-bottom: 10px;
     }
     .schedule-box {
-        height: 200px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .schedule-box {
+        width: 80%;
+        height: max-content;
+    }
+    .schedule-box.box1,.schedule-box.box2,.schedule-box.box5 {
+        width: 80%;
+        height: max-content;
     }
 }
 
@@ -339,25 +366,7 @@ a {
     .video, .video-send, .video-email {
         width: 90%;
         align-self: center;
-    }
-    .video-send {
         min-height: unset;
-    }
-    .schedule-box {
-        width: 48%;
-        margin: 1%;
-    }
-    .schedule-box.box4 {
-        width: 48%;
-    }
-    .schedule-box.box3 {
-        width: 65%;
-    }
-    .schedule-box.box6 {
-        width: 85%;
-    }
-    .schedule-flex {
-        justify-content: center;
     }
 }
 
@@ -381,6 +390,12 @@ a {
         height: 150px;
         background-position: center;
     }
+    .schedule-box {
+        width: 98%;
+    }
+    .schedule-box.box1,.schedule-box.box2,.schedule-box.box5 {
+        width: 98%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -388,12 +403,6 @@ a {
     h2 {
         font-size: 1.7rem;
     }  
-    .schedule-box.box3 {
-        width: 100%;
-    }
-    .schedule-box.box6 {
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 400px) {
@@ -412,20 +421,6 @@ a {
     }
     h2 {
         font-size: 1.6rem;
-    }
-    .schedule-box .subheadline {
-        font-size: 19px;
-        line-height: 22px;
-    }
-    .schedule-flex {
-        flex-direction: column;
-    }
-    .schedule-box {
-        height: 170px;
-        width: 100%;
-    }
-    .schedule-box.box4 {
-        width: 100%;
     }
 }
 
