@@ -259,6 +259,7 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+
 .schedule-box.box1 {
     width: 48%;
 }
@@ -276,6 +277,7 @@ a {
 
 .schedule-box ul{
     padding-left: 10px;
+    list-style-position: inside;
 }
 
 .schedule-box span{
