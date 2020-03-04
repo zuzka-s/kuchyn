@@ -171,6 +171,15 @@ a {
     align-self: end;
 }
 
+.video-email {
+    width: 50%;
+    padding: 20px;
+    height: max-content;
+    border: 6px solid #18c6ff;
+    background-color: #ffffff;
+    align-self: end;
+}
+
 #rules {
     background-color: #dbd6d6;
     padding: 50px 0;
